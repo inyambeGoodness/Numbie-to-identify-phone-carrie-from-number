@@ -1,11 +1,15 @@
 body {
-    background-color: lightblue;
-
+    /*background-color: lightblue;*/
+    background: url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjZ8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    
 }
-.main-page {
+.main-page{
     height: 35%;
     width: 35%;
-    background-color: white;
+    /*background-color: white;*/
     padding: 20px;
     margin: auto;
     margin-top: 90px;
@@ -13,12 +17,16 @@ body {
     font-size: large;
 }
 h1{
-    color: black;
+    color: lightblue;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 input{
-    border: 1px solid aqua;
-    background-color: white;
+    width: 50%;
+    border: 1px solid black;
+    background-color: whitesmoke;
     border-radius: 10px;
     margin-top: 20px;
     padding: 10px;
@@ -26,11 +34,35 @@ input{
 }
 
 button {
+    width: 30px;
     color: black; 
-    background-color: aqua;
+    background-color: lightblue;
     border: none;
     border-radius: 10px;
     padding: 10px;
     width: 198px;
     margin: 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover{
+    background-color: #8bbfe1;
+    /*color: #fff;*/
+}
+button:active{
+    background-color: #2980b9;
+    /*color: #fff;*/
+}
+
+.page2{
+    text-align: center;
+}
+
+#para{
+    color: rgba(255, 255, 255, 0.897);
+    /*color: lightblue;*/
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
 }
