@@ -66,3 +66,36 @@ button:active{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
 }
+
+ul {
+    color: rgb(38, 110, 173);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    float: right;
+  }
+  li a {
+    background-color:  rgb(73, 129, 178);
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.927);
+    text-align: center;
+    padding: 14px 16px;
+    margin: 2px 2px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  li a:hover {
+    background-color: rgb(80, 110, 140)
+  }
+  .active {
+    background-color: rgb(29, 49, 69);
+  }
+footer {
+    text-align: center;
+    margin-top: 8%;
+    padding: 0;
+}
